@@ -1,0 +1,9 @@
+.fashion {
+    height: 100vh;
+    background: url(../../image/fashion.png) center center / cover no-repeat;
+    padding: 37px 0 50px 0;
+    overflow: hidden;
+    &__button {
+        text-align: center;
+    }
+}

@@ -1,0 +1,12 @@
+.portail {
+    height: 100vh;
+    padding: 37px 0 50px 0;
+    background: url(../../image/portail.png) center center / cover no-repeat;
+    overflow: hidden;
+    &__button {
+        text-align: center;
+    }
+    .join__title {
+        width: 300px;
+    }
+}

@@ -1,0 +1,9 @@
+.interior {
+    background: url(../../image/interior.png) center center / cover no-repeat;
+    height: 100vh;
+    padding: 37px 0 50px 0;
+    overflow: hidden;
+    &__button {
+        text-align: center;
+    }
+}

@@ -1,0 +1,25 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden
+}
+
+@import "blocks/main";
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/interior';
+@import 'blocks/book';
+@import 'blocks/fashion';
+@import 'blocks/portail';
+@import 'blocks/join';
+@import 'blocks/footer';
+@import 'blocks/arrow';
+@import 'blocks/media';

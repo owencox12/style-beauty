@@ -1,0 +1,54 @@
+.main {
+    background: url(../../image/image1.png) center center / cover no-repeat;
+    height: 100vh;
+    padding: 37px 0 50px 0;
+    position: relative;
+    overflow: hidden;
+    // &__mask {
+    //     height: 838px;
+    //     width: 100%;
+    //     background: rgba(0, 0, 0, 0.2);
+    //     position: absolute;
+    //     top: 0;
+    // }
+    &__header {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &_burger {
+            display: none;
+            &_list {
+                display: none;
+            }
+        }
+        &_menu {
+            &_list {
+                list-style-type: none;
+                display: flex;
+                li {
+                    margin: 0 20px;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        font-family: 'Playfair Display';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 0px;
+                        color: #FFFFFF;
+                        text-decoration: none;
+
+                    }
+                }
+            }
+        }
+    }
+    &__button {
+        text-align: center;
+    }
+}

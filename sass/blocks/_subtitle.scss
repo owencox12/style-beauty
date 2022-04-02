@@ -1,0 +1,11 @@
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 90px;
+    color: rgba(255,255,255,.7);
+    text-align: center;
+    &--interior {
+        color: rgba(255,255,255,.9);
+    }
+}

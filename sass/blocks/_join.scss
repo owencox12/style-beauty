@@ -1,0 +1,27 @@
+.join {
+    background: #000;
+    min-height: 42px;
+    padding: 120px 0 0 0;
+    &__title {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 38px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+    &__button {
+        text-align: center;
+    }
+}

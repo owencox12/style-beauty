@@ -1,0 +1,16 @@
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 160px;
+    color: rgba(255,255,255,.88);
+    margin-top: 260px;
+    text-align: center;
+    &--pd {
+        padding-top: 260px;
+        margin-top: 0;
+    }
+    &--book {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
